@@ -1,0 +1,40 @@
+{
+  "menuItems": [
+    {
+      "id": 1,
+      "label": "TIN TỨC-SỰ KIỆN",
+      "href": "/",
+      "active": true
+    },
+    {
+      "id": 2,
+      "label": "VĂN BẢN PHÁP LUẬT",
+      "href": "/van-ban-phap-luat",
+      "active": false
+    },
+    {
+      "id": 3,
+      "label": "CHƯƠNG TRÌNH-KẾ HOẠCH",
+      "href": "/chuong-trinh-ke-hoach",
+      "active": false
+    },
+    {
+      "id": 4,
+      "label": "TƯ VẤN VIÊN PHÁP LÝ",
+      "href": "/tu-van-vien-phap-ly",
+      "active": false
+    },
+    {
+      "id": 5,
+      "label": "THỦ TỤC HÀNH CHÍNH",
+      "href": "/thu-tuc-hanh-chinh",
+      "active": false
+    },
+    {
+      "id": 6,
+      "label": "NGHIÊN CỨU TRAO ĐỔI",
+      "href": "/nghien-cuu-trao-doi",
+      "active": false
+    }
+  ]
+}

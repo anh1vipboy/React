@@ -1,0 +1,44 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "image": "/img/banner-cttdtpd_2019133928.png",
+      "alt": "Banner 1"
+    },
+    {
+      "id": 2,
+      "image": "/img/a2.png",
+      "alt": "Banner 2"
+    },
+    {
+      "id": 3,
+      "image": "/img/a3.png",
+      "alt": "Banner 3"
+    },
+    {
+      "id": 4,
+      "image": "/img/a4.png",
+      "alt": "Banner 4"
+    },
+    {
+      "id": 5,
+      "image": "/img/a5.png",
+      "alt": "Banner 5"
+    },
+    {
+      "id": 6,
+      "image": "/img/a6.png",
+      "alt": "Banner 6"
+    },
+    {
+      "id": 7,
+      "image": "/img/a7.png",
+      "alt": "Banner 7"
+    },
+    {
+      "id": 8,
+      "image": "/img/a8.png",
+      "alt": "Banner 8"
+    }
+  ]
+}

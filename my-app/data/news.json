@@ -1,0 +1,43 @@
+{
+  "featured": [
+    {
+      "id": 1,
+      "title": "Chỉ thị của Thủ tướng Chính phủ về thúc đẩy phát triển doanh nghiệp vừa và nhỏ",
+      "excerpt": "Thủ tướng Chính phủ yêu cầu thực hiện quyết liệt mục tiêu phát triển doanh nghiệp nhỏ và vừa nhanh, bền vững, tăng trưởng về số lượng, chất lượng, quy mô, hiệu quả hoạt động và đóng góp quan trọng vào nền kinh tế. Phấn đấu từ nay đến năm 2030 có thêm ít nhất 1 triệu doanh nghiệp.....",
+      "time": "1 giờ trước",
+      "image": "/img/Mask group.png"
+    },
+    {
+      "id": 2,
+      "title": "Chỉ thị của Thủ tướng Chính phủ về thúc đẩy phát triển doanh nghiệp vừa và nhỏ",
+      "excerpt": "Thủ tướng Chính phủ yêu cầu thực hiện quyết liệt mục tiêu phát triển doanh nghiệp nhỏ và vừa nhanh, bền vững, tăng trưởng về số lượng, chất lượng, quy mô, hiệu quả hoạt động và đóng góp quan trọng vào nền kinh tế. Phấn đấu từ nay đến năm 2030 có thêm ít nhất 1 triệu doanh nghiệp.....",
+      "time": "1 giờ trước",
+      "image": "/img/Mask group.png"
+    }
+  ],
+  "main": [
+    {
+      "id": 3,
+      "title": "Bộ Tài chính bãi bỏ một số thông tư trong lĩnh vực tài sản công",
+      "excerpt": "Thông tư số 21/2025/TT-BTC về việc bãi bỏ các Thông tư trong lĩnh vực quản lý, sử dụng tài sản công do Bộ trưởng Bộ Tài chính ban hành.",
+      "image": "/img/Bộ Tài chính bãi bỏ một số thông tư trong lĩnh vực tài sản công.png"
+    }
+  ],
+  "list": [
+    {
+      "id": 4,
+      "time": "10:48",
+      "title": "Quy định mức lương chuyên gia tư vấn làm cơ sở cho việc xác định giá gói thầu"
+    },
+    {
+      "id": 5,
+      "time": "17:19",
+      "title": "7 thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực bảo đảm an ninh hàng không"
+    },
+    {
+      "id": 6,
+      "time": "17:01",
+      "title": "Sửa đổi hướng dẫn về nghĩa vụ hoạt động đầu tư nước ngoài trên thị trường chứng khoán"
+    }
+  ]
+}
