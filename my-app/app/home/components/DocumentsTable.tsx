@@ -17,7 +17,7 @@ const DocumentsTable: React.FC = () => {
                     <th style={{ backgroundColor: '#0280CD', color: 'white' }}>
                       Số/Ký hiệu
                     </th>
-                    <th style={{ backgroundColor: '#0280CD', color: 'white' }}>
+                    <th style={{ backgroundColor: '#0280CD', color: 'white'}}>
                       Ngày phát hành
                     </th>
                     <th style={{ backgroundColor: '#0280CD', color: 'white' }}>
