@@ -9,14 +9,21 @@ const NewsSection: React.FC = () => {
     <div className="container">
       <div className="row mb-4">
         <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
-          <h4 className="section-title"></h4>
+          <h4 className="section-title text-uppercase fw-bold text-primary mb-3">HỖ TRỢ PHÁP LÝ</h4>
           <div className="support-grid">
             <div className="row g-3">
-              {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((num) => (
-                <div key={num} className="col-lg-4 col-md-4 col-6">
-                  <div className="box">
-                    <div className="box-icon"></div>
-                    <p></p>
+              {newsData.breakingImage.map((news) => (
+                <div key={news.id} className="col-lg-4 col-md-4 col-6">
+                  <div className="support-box h-100 box">
+                    <div className="support-box-inner text-center p-3 d-flex flex-column justify-content-center align-items-center">
+                      <img
+                        src={news.image}
+                        alt={news.alt}
+                        className="img-fluid mb-2"
+                        style={{ maxWidth: '80px', height: 'auto' }}
+                      />
+                      <p className="support-text text-white small mb-0" style={{ fontSize: '0.85rem', lineHeight: '1.3' }}>{news.title}</p>
+                    </div>
                   </div>
                 </div>
               ))}

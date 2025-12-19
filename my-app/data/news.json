@@ -15,6 +15,9 @@
       "image": "/img/Mask group.png"
     }
   ],
+ 
+
+  
   "main": [
     {
       "id": 3,
@@ -38,6 +41,62 @@
       "id": 6,
       "time": "17:01",
       "title": "Sửa đổi hướng dẫn về nghĩa vụ hoạt động đầu tư nước ngoài trên thị trường chứng khoán"
+    }
+  ],
+   "breakingImage":[
+    {
+      "id":7,
+      "image":"/img/image1.png",
+      "alt":"Tài liệu hỗ trợ pháp luật cho doanh nghiệp",
+      "title":"Tài liệu hỗ trợ pháp luật cho doanh nghiệp"
+    },
+    {
+      "id":8,
+      "image":"/img/image2.png",
+      "alt":"Chương trình hỗ trợ bồi ngạn và dịa phương",
+      "title":"Chương trình hỗ trợ bồi ngạn và dịa phương"
+    },
+    {
+      "id":9,
+      "image":"/img/image3.png",
+      "alt":"CSDL vụ việc, vướng mắc pháp lý",
+      "title":"CSDL vụ việc, vướng mắc pháp lý"
+    },
+    {
+      "id":10,
+      "image":"/img/image4.png",
+      "alt":"Văn bản chính sách mới",
+      "title":"Văn bản chính sách mới"
+    },
+    {
+      "id":11,
+      "image":"/img/image5.png",
+      "alt":"Chương trình hỗ trợ nhập lệ doanh nghiệp vừa và nhỏ",
+      "title":"Chương trình hỗ trợ nhập lệ doanh nghiệp vừa và nhỏ"
+    },
+    {
+      "id":12,
+      "image":"/img/image6.png",
+      "alt":"Thư viện bản án kinh doanh thương mại",
+      "title":"Thư viện bản án kinh doanh thương mại"
+    },
+    {
+      "id":13,
+      "image":"/img/image7.png",
+      "alt":"Văn bản trả lời của Bộ, ngành, địa phương",
+      "title":"Văn bản trả lời của Bộ, ngành, địa phương"
+    },
+    {
+      "id":14,
+      "image":"/img/image8.png",
+      "alt":"Mạng lưới tư vấn viên Bộ, ngành",
+      "title":"Mạng lưới tư vấn viên Bộ, ngành"
+    },
+    {
+      "id":15,
+      "image":"/img/image9.png",
+      "alt":"Mạng lưới tư vấn viên Bộ Tư pháp",
+      "title":"Mạng lưới tư vấn viên Bộ Tư pháp"
     }
   ]
 }
