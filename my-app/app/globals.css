@@ -266,7 +266,7 @@ body {
   background-color: #006cb7;
 }
 .box {
-  background: linear-gradient(135deg, #0066b3 0%, #004d8a 100%);
+  background-color: #017fcc;
   width: 100%;
   height: 140px;
   border-radius: 10px;
@@ -276,7 +276,7 @@ body {
   align-items: center;
   transition: all 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 3px 10px rgba(0, 102, 179, 0.3);
+  box-shadow: 0 3px 10px #017fcc;
   padding: 15px;
 }
 
@@ -486,6 +486,11 @@ body {
   .footer-info p {
     font-size: 13px;
   }
+  .banner-section .col-md-4,
+  .banner-section .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -655,6 +660,11 @@ body {
     font-size: 12px;
     padding: 0 10px;
   }
+  .banner-section .col-md-4,
+  .banner-section .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -786,6 +796,15 @@ body {
   .footer-bottom p {
     font-size: 11px;
   }
+  /* Ép mỗi banner chiếm 100% chiều ngang */
+  .banner-section .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .banner-box {
+    margin-bottom: 12px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -831,6 +850,15 @@ body {
   .footer-text h2 {
     font-size: 0.9rem;
   }
+  /* Ép mỗi banner chiếm 100% chiều ngang */
+  .banner-section .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .banner-box {
+    margin-bottom: 12px;
+  }
 }
 
 @media print {
@@ -838,5 +866,25 @@ body {
   .search-wrapper,
   .login-wrapper {
     display: none;
+  }
+}
+.home-banner-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .home-banner-img {
+    height: 300px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .home-banner-img {
+    height: 300px;
   }
 }
