@@ -1,6 +1,6 @@
 import { createDirectus, rest, authentication } from '@directus/sdk';
 
-// Define your Directus schema types
+
 interface Banner {
   id: number;
   title: string;
@@ -42,7 +42,7 @@ interface LogoLink {
   logo?: string;
 }
 
-// Define the schema - using actual Directus collection names
+
 interface Schema {
   banner: Banner[];
   tin_tuc: News[];
@@ -55,14 +55,14 @@ interface FooterData {
   content: string;
   image?: string|null;
 }
-// Create Directus client with authentication
+
 const directusUrl = process.env.NEXT_PUBLIC_DIRECTUS_URL || 'http://localhost:8055';
 
 export const directus = createDirectus<Schema>(directusUrl)
   .with(rest())
   .with(authentication('cookie'));
 
-// Helper function to authenticate
+
 export async function authenticateDirectus() {
   const email = process.env.DIRECTUS_EMAIL;
   const password = process.env.DIRECTUS_PASSWORD;
@@ -77,5 +77,5 @@ export async function authenticateDirectus() {
   }
 }
 
-// Export types for use in components
+
 export type { Banner, News, Document, Notification, LogoLink };

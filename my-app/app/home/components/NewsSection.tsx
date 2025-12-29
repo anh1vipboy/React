@@ -62,8 +62,7 @@ const NewsSection: React.FC = () => {
       >
         <div className="support-box h-100 box">
           <div className="support-box-inner text-center p-3 d-flex flex-column justify-content-center align-items-center">
-            
-            {/* LOGO từ Directus */}
+
             {item.logo && (
               <img
                 src={`http://10.10.20.77:8057/assets/${item.logo}`}
@@ -73,7 +72,6 @@ const NewsSection: React.FC = () => {
               />
             )}
 
-            {/* TÊN */}
             <p
               className="support-text text-white small mb-0"
               style={{ fontSize: '0.85rem', lineHeight: '1.3' }}

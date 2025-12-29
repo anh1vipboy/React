@@ -20,7 +20,7 @@ const Header: React.FC = () => {
             <h2 style={{ color: '#017fcc' }}>Hỗ Trợ Pháp Lý Cho Doanh Nghiệp</h2>
           </div>
           <div className="col-md-4 d-flex justify-content-end align-items-center gap-4">
-            <div className="search-wrapper">
+            <div className="search-wrapper"   >
               <input
                 type="text"
                 className="form-control search-input"

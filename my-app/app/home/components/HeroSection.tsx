@@ -15,13 +15,10 @@ interface NewsItem {
 }
 
 const HeroSection: React.FC = () => {
-  // ===== CẤU HÌNH: Thay đổi ID tin tức muốn hiển thị tại đây =====
-  const FEATURED_NEWS_ID_1 = 1;  // ID tin nổi bật thứ nhất (hiển thị trên)
-  const FEATURED_NEWS_ID_2 = 2;  // ID tin nổi bật thứ hai (hiển thị dưới)
-  
  
-  // ================================================================
-
+  const FEATURED_NEWS_ID_1 = 1;  
+  const FEATURED_NEWS_ID_2 = 2; 
+  
   const [featuredNews, setFeaturedNews] = useState<NewsItem[]>([]);
   const [heroImage, setHeroImage] = useState<string>('/img/Mask group.png');
   const [loading, setLoading] = useState(true);
@@ -31,7 +28,6 @@ const HeroSection: React.FC = () => {
       try {
         console.log(' Bắt đầu lấy dữ liệu tin tức...');
 
-        // Lấy tin thứ nhất (ID = 1)
         console.log(` Đang lấy tin ID = ${FEATURED_NEWS_ID_1}...`);
         const response1 = await fetch(`/api/news/${FEATURED_NEWS_ID_1}`);
         if (!response1.ok) {
@@ -40,7 +36,6 @@ const HeroSection: React.FC = () => {
         const news1 = await response1.json();
         console.log(' Tin 1:', news1);
 
-        // Lấy tin thứ hai (ID = 2)
         console.log(` Đang lấy tin ID = ${FEATURED_NEWS_ID_2}...`);
         const response2 = await fetch(`/api/news/${FEATURED_NEWS_ID_2}`);
         if (!response2.ok) {

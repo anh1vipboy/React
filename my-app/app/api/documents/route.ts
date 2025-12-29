@@ -4,17 +4,17 @@ import { readItems } from '@directus/sdk';
 
 export async function GET(request: Request) {
   try {
-    // Authenticate with Directus
+  
     await authenticateDirectus();
 
-    // Get URL parameters
+  
     const { searchParams } = new URL(request.url);
     const coQuanBanHanh = searchParams.get('co_quan_ban_hanh');
     const limit = searchParams.get('limit');
 
     const filter: any = {};
 
-    // Filter by co_quan_ban_hanh if provided
+   
     if (coQuanBanHanh) {
       filter.co_quan_ban_hanh = { _eq: parseInt(coQuanBanHanh) };
     }
@@ -28,7 +28,7 @@ export async function GET(request: Request) {
       })
     );
 
-    // Transform data
+
     const transformedDocuments = documents.map((item: any) => ({
       ...item,
       code: item.so_ky_hieu,
@@ -39,7 +39,7 @@ export async function GET(request: Request) {
 
     return NextResponse.json(transformedDocuments);
   } catch (error) {
-    console.error('Error fetching documents from Directus:', error);
+    console.error('[documents API]', error);
     return NextResponse.json(
       { error: 'Failed to fetch documents' },
       { status: 500 }

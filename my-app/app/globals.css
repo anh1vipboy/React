@@ -11,13 +11,13 @@ body {
 }
 
 .search-input {
-  border: 2px solid #017fcc;
-  border-radius: 15px;
+  border: 2px solid #017fcc !important;
+  border-radius: 20px;
   font-size: 14px;
   cursor: pointer;
 }
 .search-input::placeholder {
-  color: #017fcc;
+  color: #017fcc !important;
 }
 .search-icon {
   position: absolute;

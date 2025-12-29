@@ -10,7 +10,7 @@ export async function GET() {
     );
 
     if (!res.ok) {
-      return NextResponse.json(
+      return NextResponse.jsson(
         { message: 'Failed to fetch from Directus' },
         { status: 500 }
       );

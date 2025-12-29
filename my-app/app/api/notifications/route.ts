@@ -4,13 +4,13 @@ import { readItems } from '@directus/sdk';
 
 export async function GET(request: Request) {
   try {
-    // Authenticate with Directus
+    // b1 xác thực với Directus
     await authenticateDirectus();
 
     // Get URL parameters
     const { searchParams } = new URL(request.url);
     const limit = searchParams.get('limit');
-
+    //  Query với SDK
     const notifications = await directus.request(
       readItems('thong_bao', {
         fields: ['id', 'ten', 'noi_dung', 'ngay_dang', 'ngay_het_han', 'file_dinh_kem'],
