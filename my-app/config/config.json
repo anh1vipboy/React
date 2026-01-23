@@ -1,0 +1,15 @@
+{
+  "tin_tuc": [
+    "status",
+    "ten",
+    "slug",
+    "anh_dai_dien",
+    "noi_dung",
+    "chuyen_muc_tin",
+    "tac_gia",
+    "ngay_xuat_ban",
+    "tag",
+    "tom_tat",
+    "tin_noi_bat"
+  ]
+}

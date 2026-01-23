@@ -5,24 +5,25 @@ const DIRECTUS_URL = 'http://10.10.20.77:8057';
 export async function GET() {
   try {
     const res = await fetch(
-      `${DIRECTUS_URL}/items/lien_ket_website?fields=id,ten,link,logo,mo_tab_moi,loai`,
+      `${DIRECTUS_URL}/items/banner/1`,
       { cache: 'no-store' }
     );
 
     if (!res.ok) {
       return NextResponse.json(
-        { message: 'Failed to fetch banners' },
+        { message: 'Failed to fetch banner' },
         { status: 500 }
       );
     }
+
     const json = await res.json();
 
-    // Directus trả { data: [...] }
+    // Directus trả { data: {...} }
     return NextResponse.json(json.data);
-}catch (error) {
+  } catch (error) {
     return NextResponse.json(
-        { message: 'Server error', error },
-        { status: 500 }
+      { message: 'Server error', error },
+      { status: 500 }
     );
   }
 }
